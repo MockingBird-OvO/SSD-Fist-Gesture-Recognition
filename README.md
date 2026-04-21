@@ -3,6 +3,14 @@
 A real-time object detection system built on a custom **SSD (Single Shot MultiBox Detector)** architecture, trained with **5-fold cross-validation** and deployed as a live camera inference pipeline. The project currently targets hand gesture recognition (specifically the "Fist" class) but is fully configurable for any COCO-format dataset.
 
 ---
+### 🚀 Quick Start
+1. Clone this repo: `git clone https://github.com/MockingBird-OvO/SSD-Fist-Gesture-Recognition.git`
+2. Download weights from [Releases](https://github.com/MockingBird-OvO/SSD-Fist-Gesture-Recognition/releases/tag/v1.0).
+3. Put the `.pth` file into `_04_training/models/`.
+4. pip install -r requirements.txt
+5. Run: `python predict.py`
+
+
 
 ## Features
 
