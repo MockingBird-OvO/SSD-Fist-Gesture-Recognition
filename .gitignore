@@ -1,0 +1,16 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- pycache ---
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- VS Code ---
+.vscode/
+
+# --- Models ---
+_04_training/models/
