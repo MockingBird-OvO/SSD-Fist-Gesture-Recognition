@@ -13,4 +13,4 @@ desktop.ini
 .vscode/
 
 # --- Models ---
-_04_training/models/
+_04_training/models/*
